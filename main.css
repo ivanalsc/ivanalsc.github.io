@@ -234,7 +234,7 @@ body .portfolio .cards .card img {
 body .portfolio .cards .card .buttons {
   position: absolute;
   bottom: 15px;
-  left: 26%;
+  left: 17%;
   margin-top: 2rem;
   background-color: #222020;
   color: #fcfbde;
@@ -361,6 +361,9 @@ body footer p a {
   body .portfolio .cards .card {
     width: 40%;
     height: 54vh;
+  }
+  body .portfolio .cards .card .buttons {
+    left: 26%;
   }
 }
 @keyframes text {

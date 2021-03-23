@@ -148,7 +148,7 @@ header{
                 position: relative;
                 height: 2rem;
                 width: 4rem;
-                top: 300px;
+                top: 265px;
                 right: 40px;
                 background-color: transparent;
                 transform: rotate(-10deg);
@@ -209,6 +209,7 @@ header{
         align-items: center;
         background-color: rgb(34, 32, 32);
         .card{
+            position: relative;
             height: 60vh;
             width: 80%;
             text-align: center;
@@ -237,6 +238,9 @@ header{
                 -o-border-radius: 10px;
 }
             .buttons{
+                position: absolute;
+                bottom: 15px;
+                left: 26%;
                 margin-top: 2rem;
                 background-color: rgb(34, 32, 32) ;
                 color: #fcfbde ;
@@ -379,7 +383,7 @@ footer{
             flex-wrap: wrap;
             .card{
                 width: 40%;
-                height: 50vh;
+                height: 54vh;
                 
             }
         }

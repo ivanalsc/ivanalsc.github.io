@@ -144,7 +144,7 @@ body .servicios .cards .card .svg2 {
   position: relative;
   height: 2rem;
   width: 4rem;
-  top: 300px;
+  top: 265px;
   right: 40px;
   background-color: transparent;
   transform: rotate(-10deg);
@@ -202,6 +202,7 @@ body .portfolio .cards {
   background-color: #222020;
 }
 body .portfolio .cards .card {
+  position: relative;
   height: 60vh;
   width: 80%;
   text-align: center;
@@ -231,6 +232,9 @@ body .portfolio .cards .card img {
   -o-border-radius: 10px;
 }
 body .portfolio .cards .card .buttons {
+  position: absolute;
+  bottom: 15px;
+  left: 26%;
   margin-top: 2rem;
   background-color: #222020;
   color: #fcfbde;
@@ -356,7 +360,7 @@ body footer p a {
   }
   body .portfolio .cards .card {
     width: 40%;
-    height: 50vh;
+    height: 54vh;
   }
 }
 @keyframes text {
